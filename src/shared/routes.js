@@ -10,9 +10,9 @@ const routes = [
 	{
 		path: "/contact",
 		component: Contact,
-		routes: [
+		subRoutes: [
 			{
-				path: "/map",
+				path: "/contact/map",
 				component: Map
 			}
 		]

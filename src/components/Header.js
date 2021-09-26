@@ -6,9 +6,11 @@ const Header = () => {
 	return (
 		<header>
 			<Container>
+				<ul>
 				{links.map((item, index) => {
 					return <Menu item={item} key={index} />;
 				})}
+				</ul>
 			</Container>
 		</header>
 	)
