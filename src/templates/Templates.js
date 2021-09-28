@@ -4,11 +4,11 @@ import Path from "../components/Path";
 const Templates = () => {
 
 	return (
-		<div>
+		<section>
 			{routes.map((item, index) => {
 				return <Path item={item} key={index} component={item.component} />;
 			})}
-		</div>
+		</section>
 	)
 }
 

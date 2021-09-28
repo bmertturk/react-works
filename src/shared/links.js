@@ -1,5 +1,9 @@
 const links = [
 	{
+		path: "/",
+		title: "Home"
+	},
+	{
 		path: "/about",
 		title: "About"
 	},
